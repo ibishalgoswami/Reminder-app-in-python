@@ -4,8 +4,6 @@ import re
 
 #myFile = 'C:/Users/Desktop/New folder/containerfile'
 
-URL = 'https://www.way2sms.com/api/v1/sendCampaign'
-
 def checkTodaysBirthdays():
     while True:
         fileName = open(myFile, 'r')
